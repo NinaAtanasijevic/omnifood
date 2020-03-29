@@ -41,8 +41,45 @@ section{
     max-width: 1140px;
     margin: 0 auto;
 }
+/*-----------------------ICONS---------------------------*/
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
 
-/*----------header--------*/
+}
+.icon-small{
+   display: inline-block;
+   width: 30px;
+   text-align: center;
+   color: #e67e22;
+   margin-right: 10px;
+   font-size: 120%;
+   line-height: 120%;
+   vertical-align: middle;
+   margin-top: -5px; 
+
+
+}
+/*-------------------------LINKS------------------------------------*/
+a:link,
+a:visited{
+    color:#e67e22 ;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s color 0.2s;
+}
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+
+}
+
+/*-------------------------header-----------------------------------*/
 
 .hero-text-box{
     position: absolute;
@@ -148,7 +185,7 @@ h2:after{
 
 
 }
-/*----------btns--------*/
+/*-----------------------------btns-----------------------------*/
 
 .btn:link,
 .btn:visited{
@@ -172,7 +209,7 @@ h2:after{
 
 
 }
-.btn-ghost:hover
+.btn-ghost:hover,
 .btn-ghost:active{ 
     border: 1px solid #e67e22 ;
     
@@ -186,13 +223,13 @@ h2:after{
 }
 .btn-full:hover,
 .btn-full:active{
-    background-color: #e67e22;
+    background-color: #cf6d17;
     
 
 
 
 }
-.btn-ghost:link
+.btn-ghost:link,
 .btn-ghost:visited{ 
     border: 1px solid #e67e22 ;
     color: #fff ;
@@ -200,7 +237,7 @@ h2:after{
 
 }
 
-/*-------p------*/
+/*-------------------------------paragraphs---------------------------------------*/
 
 .long-copy{
     line-height: 165%;
@@ -224,14 +261,10 @@ line-height: 145%;
 
 }
 
-.icon-big{
-    font-size: 350%;
-    display: block;
-    color: #e67e22;
-    margin-bottom: 10px;
 
-}
-/*------ meals-----*/
+
+
+/*-------------------------------- meals-----------------------------------*/   
 
 .section-meals{
     padding: 0;
@@ -311,10 +344,31 @@ line-height: 145%;
     font-size: 150%;
     margin-right: 25px;
 }
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+
+}
+
 .btn-app img{
     height: 50px;
     width: auto;
     margin-right: 10px;
 
+
+}
+
+/*--------------------------------------------------------*/
+/*CITIES*/
+/*--------------------------------------------------------*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+
+}
+.city-features{
+    margin-bottom: 5px;
 
 }
