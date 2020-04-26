@@ -15,7 +15,6 @@ body{
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow: hidden;
 }
 .clearfix{zoom: 1;}
 .clearfix:after{
@@ -89,13 +88,16 @@ header{
     background-attachment: fixed;
 }
 
-.logo{
+.logo
+.logo-black{
     margin-top: 20px;
     height: 100px;
     width: auto;
     float: left;
 }
+.logo-black{display: none;}
 
+/*Main Navigation*/
 .main-nav{
     float: right;
     list-style: none;
@@ -123,6 +125,26 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+/****************** Sticky Navigation***********************************/
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.979);
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 8px 0;
+    color:#555;
+}
+.sticky .logo-black{
+    display: block;
+    height: 100px;
+}
+
+    /***-------H123------***/
 
 h1,
 h2,
