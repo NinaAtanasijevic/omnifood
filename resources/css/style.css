@@ -53,7 +53,7 @@ section{
    font-size: 120%;
    line-height: 120%;
    vertical-align: middle;
-   margin-top: -5px; 
+   margin-top: -5px;
 }
 /*-------------------------LINKS------------------------------------*/
 a:link,
@@ -88,8 +88,8 @@ header{
     background-attachment: fixed;
 }
 
-.logo
-.logo-black{
+.logo /* TODO: Obican logo treba da se sakrije na manjim ekranima (kad prikazes crni logo) i fali ti zarez ovde i verovatno neka margina posto je ruzno kad je ovako zalepljen logo za donju ivicu */
+.logo-black {
     margin-top: 20px;
     height: 100px;
     width: auto;
@@ -131,7 +131,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.979);
+    background-color: rgba(255, 255, 255, 0.979); /* TODO: Ovo treba da se strpa u media query */
 }
 
 .sticky .main-nav li a:link,
@@ -216,12 +216,12 @@ input[type=submit]{
 
 
 .btn-ghost:link,
-.btn-ghost:visited{ 
+.btn-ghost:visited{
     border: 1px solid #e67e22 ;
     color: #e67e22 ;
 }
 .btn-ghost:hover,
-.btn-ghost:active{ 
+.btn-ghost:active{
     border: 1px solid #e67e22 ;
     color: #fff;
 }
@@ -231,7 +231,7 @@ input[type=submit]{
 .long-copy{
     line-height: 165%;
     width: 70%;
-    margin-left: 15%;   
+    margin-left: 15%;
 }
 .section-features .long-copy{
     margin-bottom: 30px;
@@ -247,7 +247,7 @@ line-height: 145%;
 text-align: center;
 }
 
-/*-------------------------------- meals-----------------------------------*/   
+/*-------------------------------- meals-----------------------------------*/
 
 .section-meals{
     padding: 0;
@@ -287,7 +287,7 @@ text-align: center;
 .section-steps{
     background-color: #f4f4f4;
 }
-   
+
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
